@@ -7,26 +7,14 @@
   <title>My Vue.js Practice</title>
 </head>
 <body>
-  <div id="mycounter">
-    <div v-text="count"></div>
-    <div v-text="count * 10"></div>
-    <div v-text="'('+ count + ')'"></div>
-    <div v-text="count ? count : '-'"></div>
-  <!--  <button v-on:click="count++">Up</button> -->
-    <button v-on:click="countUp">Up</button>
+  <div id="myapp">
+
    </div>
   <script src="https://unpkg.com/vue"></script>
   <script>
     var vm = new Vue({
-      el: '#mycounter',
-      data: {
-        count: 0
-      },
-      methods: {
-        countUp: function() {
-          this.count++;
-        }
-      }
+      el: '#mypp',
+      
     });
   </script>
 </body>
